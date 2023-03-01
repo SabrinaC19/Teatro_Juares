@@ -1,0 +1,110 @@
+html {
+
+	height: 100%;
+}
+
+body {
+ 
+	display: flex;
+	flex-direction: column;
+	min-height: 100%;
+	background-color: #FFC588;
+}
+
+.avisoReservar {
+
+	background-color: #C60E33;
+	text-align: justify;
+	color: #fff;
+
+}
+
+.avisoReservar p a {
+
+	color: #BED2FF;
+}
+
+.iconoBlanco {
+
+	color: #fff;
+	padding-left: 2%;
+	padding-right: 2%;
+}
+
+#formulario-reservacion {
+
+	margin-top: 3% !important;
+	margin-bottom: 5%;
+	background-color: #fff;
+	font-size: 17px;
+	font-family: 'Abyssinica SIL', serif;
+}
+
+
+#formulario-reservacion input:focus, #formulario-reservacion select:focus, #formulario-reservacion textarea:focus{
+    border-color: #800A2C;
+    box-shadow: 0 1px 1px rgba(165, 13, 57, 0.9)inset, 0 0 8px rgba(160, 25, 64,0.8);
+    outline: 0 none;
+}
+
+
+.tituloReservacion {
+
+	border-bottom: 3px solid #A72043;
+	color: #831B36;
+	font-family: 'Bree Serif', serif;
+}
+
+.tituloReservacion h5 {
+
+	font-size: 33px;
+}
+
+#formulario-reservacion input::placeholder {
+    font-family: "icomoon";
+}
+
+.pdf, .iconoRojo {
+
+	color: #A72043;
+	padding: 0px 8px;
+}
+
+#titulo-otroServicio {
+
+	background-color: #E7E7E7;
+}
+
+
+#enviar {
+
+    margin-right: 1% !important;
+}
+
+#empresaCheck:checked {
+
+	background-color:  #800A2C;
+	border-color:  #800A2C;
+}
+
+
+#limpiar {
+
+    background-color: #930520;
+    border: 1px solid #930520;
+}
+
+#limpiar:hover {
+
+    background-color: #B0253F;  
+}
+
+#enviar, #limpiar {
+
+    font-size: 16px;
+}
+
+#footer {
+
+	margin-top: auto;
+}

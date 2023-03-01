@@ -1,0 +1,136 @@
+html {
+
+    height: 100%;
+}
+
+body{
+    background-color: #f2f5f5;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+
+
+.card{
+    box-shadow: 0px 1px 10px rgb(0 0 0 / 40%);
+}
+
+.card-header-principal{
+    background-color: #710014 !important;
+    color: white;
+}
+
+.btnVentas {
+
+background: #980E22 !important;
+border: 1px solid #980E22;
+color: #fff;
+
+}
+
+.btnVentas:hover {
+
+background: #C7243C !important;
+border: 1px solid #C7243C;
+color: #fff;  
+}
+
+.card-header{
+    background-color: #074d1c;
+    color: white;
+}
+
+.iconTitle{
+    font-size: 35px;
+}
+
+.nav-Breadcrumb{
+    height: 50px;
+}
+
+.b-modificar{
+    background-color: #21e6b4;
+    border-color: #21e6b4;
+}
+
+.b-modificar:hover{
+    background-color: #19C79B;
+    border-color: #19C79B;
+}
+
+.b-modificar:focus{
+    background-color: #19C79B;
+    border-color: #19C79B;
+}
+
+.b-borrar{
+    background-color: #e22222;
+    border-color: #e22222;
+}
+
+.b-borrar:hover{
+    background-color: #A52516;
+    border-color: #A52516;
+}
+
+.b-borrar:focus{
+    background-color: #A52516;
+    border-color: #A52516;
+}
+
+@media(max-width: 772px){
+	table{
+		font-size: 12px;
+	}
+
+    .i-modificar{
+        font-size: 12px;
+    }
+
+    .i-borrar{
+        font-size: 12px;
+    }
+} 
+
+@media(max-width: 556px){
+	table{
+		font-size: 12px;
+	}
+    .i-modificar{
+        font-size: 9px;
+    }
+    .i-borrar{
+        font-size: 9
+        px;
+    }
+}
+
+.tabla{
+    border: 3px solid #e0e0e0;
+}
+
+.acciones{
+    box-shadow: none !important;
+    border: 0px;
+}
+
+textarea{
+    height: 50% !important;
+}
+
+#footer {
+
+    margin-top: auto;
+}
+
+#selectEstado {
+    display: none;
+}
+
+#nuevoBanco {
+    display: none;
+}
+
+#editBanco {
+    display: none;
+}

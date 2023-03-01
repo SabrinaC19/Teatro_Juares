@@ -1,0 +1,101 @@
+html {
+
+    height: 100%;
+}
+
+body{
+    background-color: #f2f5f5;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+
+.card{
+    box-shadow: 0px 1px 10px rgb(0 0 0 / 40%);
+    border: 0px !important;
+}
+
+.card-header-principal{
+    background-color: #710014 !important;
+    color: white;
+}
+
+.card-header{
+    background-color: #074d1c;
+    color: white;
+}
+
+.iconTitle{
+    font-size: 35px;
+}
+
+.nav-Breadcrumb{
+    height: 50px;
+}
+
+.card .row{
+    padding: 10px;
+}
+
+.stats{
+    box-shadow: 0px 1px 10px rgb(0 0 0 / 40%);
+    padding-left: 0px;
+    transition: all ease .2s; 
+}
+
+.stats:hover{
+    box-shadow: 0px 1px 10px rgb(6 164 236 / 80%); 
+    transform: scale(1.05);
+}
+
+.iconStats{
+    padding: 20px;
+    font-size: 60px;
+}
+
+.iconStats-u{
+    background-color: #21e6b4;
+}
+
+.adminTitle{
+    font-size: 14px;
+}
+
+.iconStats-c{
+    background-color: #2b9f3a;
+}
+
+.iconStats-f{
+    background-color: #ae1b2c;
+}
+
+.iconStats-v{
+    background-color: #e22222;
+}
+
+.stats a{
+    text-decoration: none; 
+    color: black;
+}
+
+.stats a:hover{
+    color: rgb(2, 161, 235);
+}
+
+table{
+    font-size: 12px;
+}
+
+.tabla{
+    border: 3px solid #e0e0e0;
+}
+
+.acciones{
+    box-shadow: none !important;
+    border: 0px;
+}
+
+#footer {
+
+    margin-top: auto;
+}

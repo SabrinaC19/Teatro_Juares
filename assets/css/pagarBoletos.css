@@ -1,0 +1,60 @@
+
+body {
+	background-color: #FFC588;
+}
+
+.metodo{
+	color: #808080;
+	transition: all .3s ease;
+}
+
+.metodo:hover{
+	color: #5CB164;
+}
+
+.active{
+	text-decoration: none;
+	color: #5CB164;
+}
+
+.off{
+	color: #808080;
+}
+
+.metodo:focus{
+	color: #5CB164;
+}
+
+.titleCB{
+	color: #831B36;
+	font-family: 'Bree Serif', serif;
+}
+
+/* -------------- */
+
+#formulario-pg {
+    border: 2px solid lightgray;
+    border-radius: 2;
+    transition: .3s;
+}
+
+#formulario-pg input {
+	text-align: center;
+    font-size: 18px;
+    color: #757575;
+}
+
+#formulario-pg input:focus{
+    border: 2px solid #5CB164;
+    box-shadow: none;
+}
+
+#formulario-pg label {
+    font-size: 18px;
+    color: #5CB164;
+}
+
+
+#mostrarTarjeta, #datosClientes{
+	display: none;
+}

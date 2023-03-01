@@ -1,0 +1,408 @@
+
+
+/*-------------------------------------------*/
+
+/* Bienvenida */
+
+.bienvenida img{
+	width: 100%;
+	height: 100%; 
+}
+
+.container-bienvenida{
+	position: absolute;
+	top: 59%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.container-bienvenida img{
+	width: 50%;
+	height: 50%;
+}
+
+.bienvenida-title img{
+	display: block;
+	margin: auto;
+}
+
+.body-bienvenida{
+	color: white;
+	text-align: center;
+}
+
+.body-bienvenida p{
+	font-size: 30px;
+}
+
+.body-bienvenida a{
+	font-size: 24px;
+}
+
+
+/*-------------------------------------------*/
+
+/*  CONOCENOS, MISION Y VISION */
+
+.main {
+	background-color: #FFC588;
+}
+
+.titulo {
+	padding: 40px;
+	font-size: 40px;
+	text-align: center;
+	color: #fff;
+}
+
+#separator-ribbon {
+	width: 100%;
+	overflow: hidden;
+	position: relative;
+	z-index: 2;
+}
+
+#separator-ribbon .content {
+	background: #710014;
+	width: 150%;
+	height: 150px;
+	margin-left: -25%;
+	border-bottom-left-radius: 50%;
+	border-bottom-right-radius: 50%;
+}
+
+.container-md {
+	text-align: justify;
+}
+
+.title-conocenos {
+	color: #710014;
+	padding: 10px 0px;
+	text-align: center;
+}
+
+.container-qs{
+	border: 4px dashed #710014;
+	background-color: #FCBC78; 
+	color: #262626;
+	transition: all ease-out 0.2s;
+}
+
+
+.body-conocenos img {
+	margin: auto;
+	width: 65%;
+	height: 450px;
+}
+
+
+.card-m {
+	background: #34752B;
+	color: #fff;
+	text-align: justify;
+	cursor: pointer;
+	border: 6px solid #073A11;
+	box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+	overflow: hidden;
+	transition: all ease-out .4s;
+}
+
+.card-v {
+	background: #DD6116;
+	color: #fff;
+	text-align: justify;
+	cursor: pointer;
+	border: 6px solid #AB3800;
+	box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+	overflow: hidden;
+	transition: all ease-out .4s;
+}
+
+.card-border:hover {
+	box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+	transform: scale(1.05);
+}
+
+.hr1 {
+	border: 2px solid #fff;
+}
+
+.img-m img {
+	margin: auto;
+	display: flex;
+}
+
+.img-v img {
+	margin: auto;
+	display: flex;
+}
+
+
+/*-------------------------------------------*/
+
+/* SERVICIOS */
+
+.panel-tabs .nav-item{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: .25rem;
+	box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+	transition: all .2s ease;
+}
+
+.panel-tabs a:focus {
+	color: #fff;
+}
+
+.panel-tabs .nav-item:hover{
+	color: #fff;
+	background-color: #DC283C;
+	box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.4);
+	transform: translateY(-5%);
+}
+
+.nav-item {
+	background-color: #AE1B2B;
+}
+
+.title-services {
+	color: #AE1B2B;
+	font-weight: bold;
+	padding: 10px 0;
+}
+
+.text-services {
+	color: #393535;
+}
+
+.hr4 {
+	border: 2px solid #AE1B2B;
+}
+
+.text-services {
+	font-size: 18px;
+	text-align: justify;
+}
+
+.tab-pane img {
+	box-shadow: 0px 1px 10px rgba(0, 0, 0, .4);
+	transition: all .2s ease;
+}
+
+.tab-pane img:hover {
+	cursor: pointer;
+	transform: scale(1.02);
+}
+
+.card {
+	padding: 20px;
+	box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.4);
+    border: 0px !important;
+}
+
+.card-r{
+	background-color: #AE1B2B;
+	color: #fff;
+}
+
+.text-reservar {
+	font-size: 18px;
+}
+
+.link-reservaciones {	
+	text-decoration: none;
+	color: #AE1B2B;
+	font-size: 18px;
+	border: 2px solid #fff;
+	border-radius: 8px;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	background-color: #fff;
+}
+
+.link-reservaciones:hover {
+	color: #AE1B2B;
+}
+
+.icon2 {
+	padding: 8px 20px;
+	color: #fff;
+}
+
+
+/*-------------------------------------------*/
+
+/* UBICACION */
+
+.ubication-container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+
+/*-------------------------------------------*/
+
+/* DESARROLLADORES */
+
+.miembro {
+	background-color: #f2f5f5;
+	position: relative;
+  	box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  	padding: 30px;
+  	transition: .4s;
+}
+
+.miembro .miembro-img {
+  	width: 180px;
+  	border-radius: 100%;
+}
+
+.miembro:hover {
+  	transform: translateY(-10px);
+}
+
+.miembro h4 {
+  	margin-bottom: 5px;
+  	font-size: 24px;
+  	font-weight: bold;
+  	color: #891227;
+  	display: block;
+  	padding-bottom: 10px;
+  	position: relative;
+}
+
+.miembro h4::after {
+  	content: "";
+  	position: absolute;
+  	display: block;
+  	width: 100%;
+  	height: 2px;
+  	background: #710014;
+  	bottom: 0;
+  	left: 0;
+}
+
+.miembro span {
+	color: #262626;
+  	display: block;
+  	font-size: 15px;
+  	padding-bottom: 10px;
+  	position: relative;
+}
+
+/*-------------------------------------------*/
+
+/* CONTACTO DESARROLLADORES */
+
+.card-redes {
+  	margin-top: 12px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.card-redes a {
+	background-color: #393535;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-decoration: none;
+  	border-radius: 50px;
+	margin: 0 auto;
+ 	width: 32px;
+  	height: 32px;
+	text-align: center;
+	color: #fff;
+	transition: .2s;
+}
+
+.card-redes a:hover {
+	transform: translateY(-3px) scale(1.05);
+	box-shadow: 0px 5px 5px 0 rgba(0, 0, 0, .4);
+}
+
+.card-redes a:hover.github {
+	background-color: #581DEE;
+	color: #fff;
+}
+
+.card-redes a:hover.linkedin {
+	background-color: #0E84D6;
+	color: #fff;
+}
+
+.card-redes a:hover.whatsapp {
+	background-color: #0FDC44;
+	color: #fff;
+}
+
+.card-redes a:hover.google {
+	background-color: #D81E1E;
+	color: #fff;
+}
+
+
+/*-------------------------------------------*/
+
+/* BOTON IR ARRIBA */
+
+.botonArriba{
+	width: 60px;
+	height: 60px;
+	background: #E7143E;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #fff;
+	border-radius: 50%;
+	font-size: 20px;
+	position: fixed;
+	bottom: 30px;
+	right: 30px;
+	cursor: pointer;
+	transform: scale(0);
+	border: 4px solid transparent;
+	transition: all 300ms ease;
+	z-index: 1000; 
+}
+
+.botonArriba:hover{
+	transform: scale(1.1);
+	border-color: rgba(0,0,0,0.1);
+}
+
+
+/*-------------------------------------------*/
+
+/* PARNERS */
+
+.img-parners, .img-parners-g{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.img-parners img {
+	display: flex;
+	width: 50%;
+	height: 70%;
+	transition: all .2s ease;
+}
+
+.img-parners img:hover {
+	transform: scale(1.05);
+}
+
+.img-parners-g img {
+	display: flex;
+	width: 230px;
+	height: 230px;
+	transition: all .2s ease;
+}
+
+.img-parners-g img:hover {
+	transform: scale(1.05);
+}

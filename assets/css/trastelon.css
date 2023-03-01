@@ -1,0 +1,344 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* ------------------------------------------ */
+
+/* PANTALLA DE CARGA */
+
+#contenedor_carga {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-image: linear-gradient(to top, #710014, #93031C);
+	height: 100%;
+	width: 100%;
+	position: fixed;
+	transition: all .1s ease;
+	z-index: 10000;
+}
+
+
+#carga {
+	border: 15px solid #c7c7c7;
+	border-top-color: #F4266A;
+	border-top-style: groove;
+	height: 100px;
+	width: 100px;
+	border-radius: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+	animation: girar 1.5s linear infinite;
+}
+
+@keyframes girar {
+	from { transform: rotate(0deg); }
+	to { transform: rotate(360deg); }
+}
+/* ------------------------------------------ */
+
+/* BOTON IR ARRIBA */
+
+.botonArriba{
+	width: 60px;
+	height: 60px;
+	background: #E7143E;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #fff;
+	border-radius: 50%;
+	font-size: 20px;
+	position: fixed;
+	bottom: 30px;
+	right: 30px;
+	cursor: pointer;
+	transform: scale(0);
+	border: 4px solid transparent;
+	transition: all 300ms ease;
+	z-index: 1000; 
+}
+
+.botonArriba:hover{
+	transform: scale(1.1);
+	border-color: rgba(0,0,0,0.1);
+}
+
+
+/*-------------------------------------------*/
+
+
+/* MAIN Y SEPARADORES*/
+
+.main {
+	background-color: #FFC588;
+}
+
+.titulo {
+	padding: 40px;
+	font-size: 40px;
+	text-align: center;
+	color: #fff;
+}
+
+#separator-ribbon {
+	width: 100%;
+	overflow: hidden;
+	position: relative;
+	z-index: 2;
+}
+
+#separator-ribbon .content {
+	width: 150%;
+	height: 150px;
+	margin-left: -25%;
+	border-bottom-left-radius: 50%;
+	border-bottom-right-radius: 50%;
+}
+
+/* HISTORIA */
+
+.title-historia {
+	color: #AE1B2B;
+	font-weight: bold;
+	padding: 10px 0;
+	text-align: center;
+}
+
+.hr1{
+	border: 2px solid #AE1B2B;
+}
+
+.historia-text {
+	text-align: justify;
+}
+
+.img-historia {
+	background-color: #FFE055;
+}
+
+.img-historia {
+	box-shadow: 0px 1px 10px rgba(0, 0, 0, .4);
+	transition: all .2s ease;
+}
+
+.img-historia:hover {
+	background-color: #FFDE49;
+	cursor: pointer;
+	transform: scale(1.02);
+}
+
+.vistas-text-historia {
+	text-align: center;
+	color: #000;
+}
+
+/* AFORO */
+
+.title-aforo {
+	color: #AE1B2B;
+	font-weight: bold;
+	padding: 10px 0;
+	text-align: center;
+}
+
+.hr1{
+	border: 2px solid #AE1B2B;
+}
+
+.escenario-text {
+	text-align: justify;
+}
+
+.img-aforo {
+	background-color: #AE1B2B;
+}
+
+.img-aforo {
+	box-shadow: 0px 1px 10px rgba(0, 0, 0, .4);
+	transition: all .2s ease;
+}
+
+.img-aforo:hover {
+	background-color: #DC283C;
+	cursor: pointer;
+	transform: scale(1.02);
+}
+
+.vistas-text {
+	text-align: center;
+	color: #fff;
+}
+
+.info-aforo {
+	color: #fff;
+	background-color: #AE1B2B;
+	border-radius: 8px;
+	box-shadow: 5px 6px 0px rgba(145, 22, 35, 1);
+
+}
+
+.title-info {
+	padding: 10px 0;
+	text-align: center;
+}
+
+.info-text {
+	text-align: justify;
+}
+
+
+/* ESCENARIO */
+
+.title-escenario {
+	color: #AE1B2B;
+	font-weight: bold;
+	padding: 10px 0;
+	text-align: center;
+}
+
+.hr1{
+	border: 2px solid #AE1B2B;
+}
+
+.escenario-text {
+	text-align: justify;
+}
+
+.img-escenario {
+	background-color: #F98F27;
+}
+
+.img-escenario {
+	box-shadow: 0px 1px 10px rgba(0, 0, 0, .4);
+	transition: all .2s ease;
+}
+
+.img-escenario:hover {
+	background-color: #FD9D38;
+	cursor: pointer;
+	transform: scale(1.02);
+}
+
+.vistas-text-escenario {
+	text-align: center;
+	color: #000;
+}
+
+.info-escenario {
+	background-color: #F98F27;
+	border-radius: 8px;
+	box-shadow: 5px 6px 0px rgba(230, 141, 48, 1);
+
+}
+
+.title-info {
+	padding: 10px 0;
+	text-align: center;
+}
+
+.info-text {
+	text-align: justify;
+}
+
+/* AREA TECNICA */
+
+.title-areas {
+	color: #AE1B2B;
+	font-weight: bold;
+	padding: 10px 0;
+	text-align: center;
+}
+
+.hr1{
+	border: 2px solid #AE1B2B;
+}
+
+.areas-text {
+	text-align: justify;
+}
+
+.img-areas {
+	color: #fff;
+	background-color: #4B9740;
+}
+
+.img-areas p{
+
+}
+
+.img-areas {
+	box-shadow: 0px 1px 10px rgba(0, 0, 0, .4);
+	transition: all .2s ease;
+}
+
+.img-areas:hover {
+	background-color: #56A04B;
+	cursor: pointer;
+	transform: scale(1.02);
+}
+
+.vistas-text-areas {
+	padding-top: 0.50rem;
+	text-align: center;
+	font-weight: bold;
+}
+
+.areas-info {
+	color: #fff;
+	background-color: #4B9740;
+}
+
+.title-areas-info {
+}
+
+.text-areas {
+	text-align: justify;
+}
+
+/* PERSONAL */
+
+.card-personal {
+	background-color: #fff;
+	border-radius: 8px;
+	border: 2px solid #0C9FC4;
+	transition: all .2s ease;
+}
+
+.card-personal:hover {
+	cursor: pointer;
+	transform: translateY(-3%);
+}
+
+.personal-description {
+	
+}
+
+.title-personal {
+	color: #0C9FC4;
+}
+
+
+.hr2 {
+	border: 2px solid #0C9FC4;
+}
+
+.text-personal {
+	text-align: justify;
+	padding: 5px;
+}
+
+
+
+
+
+
+
+
+

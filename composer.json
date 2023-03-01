@@ -1,0 +1,17 @@
+{
+    "name": "teatro_juares/content",
+    "description": "proyecto \" final\"",
+    "type": "project",
+    "require": {
+        "php": "^7.3",
+        "setasign/fpdf": "^1.8",
+        "phpmailer/phpmailer": "^6.7"
+    },
+    "license": "001",
+    "autoload": {
+        "psr-4": {
+            "TeatroJuares\\Content\\": "content/"
+        }
+    },
+    "minimum-stability": "beta"
+}

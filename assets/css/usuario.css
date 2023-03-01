@@ -1,0 +1,275 @@
+/*Register*/
+
+#formulario-registro a {
+    text-decoration: none;
+}
+
+.bg-register{
+
+    background-image: linear-gradient(to bottom, #C7243C, #40000A);
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+.logoRegistro {
+
+    margin-left: 1%;
+}
+
+#logo-registro {
+
+    margin-top: 1%;
+    margin-left: 4%;
+    transition: all .2s ease;
+}
+
+#logo-registro:hover {
+
+    transform: scale(1.05);
+   
+}
+
+#titulo-registro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 38px;
+    color: #831B36;
+    font-family: 'Bree Serif', serif !important; 
+}
+
+#formulario-registro {
+    margin-top: 5vh;
+    margin-bottom: 8%;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.4);
+    font-family: 'Abyssinica SIL', serif;
+}
+
+#formulario-registro input::placeholder{
+    font-family: "icomoon"
+}
+
+#cuenta {
+    font-size: 16px;
+}
+
+#limpiar {
+    background-color: #930520;
+    border: 1px solid #930520;
+}
+
+#limpiar:hover {
+    background-color: #B0253F;  
+}
+
+#envio, #limpiar {
+    font-size: 16px;
+}
+
+#formulario-registro input {
+    border: none;
+    border-bottom: 2px solid lightgray;
+    border-radius: 0;
+    transition: .2s;
+}
+
+#formulario-registro input {
+    font-size: 18px;
+    color: #757575;
+}
+
+#formulario-registro input:focus{
+    border-bottom: 2px solid #AD4848;
+    box-shadow: none;
+}
+
+#formulario-registro label {
+    font-size: 18px;
+    color: #6C757D;
+}
+
+
+/*Login*/
+
+#formulario-login a {
+    text-decoration: none;
+}
+
+.bg-login{
+	background-image: linear-gradient(to bottom, #C7243C, #40000A);
+	background-position: center center;
+	background-attachment: fixed;
+	font-family: 'Inter', sans-serif;
+
+}
+
+
+#logo-login {
+    margin-top: 1%;
+    transition: all .2s ease;
+}
+
+#formulario-login {
+    margin-top: 5vh;
+    font-family: 'Abyssinica SIL', serif;
+}
+
+
+
+#formulario-login h2 {
+	color: #831B36;
+    font-size: 33px;
+}
+
+
+.entrar {
+	margin-bottom: 5%;
+}
+
+.botonIniciar{
+	background: #9F2323 !important;
+	border-color: #AD4848;
+    font-size: 19px;
+	color: white;
+}
+
+.botonIniciar:hover{
+	background: #6F0D10 !important;
+	color: white;
+}
+
+#formulario-login .botonIniciar:focus{
+	background: #9F2323 !important;
+	border-color: #AD4848;
+	box-shadow: 0 0px 0px rgba(255, 255, 255, 0.9)inset, 0 0 8px rgba(255, 255, 255,0.8)!important;
+	color: white;
+}
+
+#formulario-login input::placeholder{
+    font-family: "icomoon"
+}
+
+#formulario-login .cedulaLogin, .claveLogin {
+    border: none;
+    border-bottom: 2px solid lightgray;
+    border-radius: 0;
+    transition: .2s;
+}
+
+#formulario-login input {
+    font-size: 18px;
+    color: #757575;
+}
+
+#formulario-login .cedulaLogin:focus, #formulario-login .claveLogin:focus{
+    border-bottom: 2px solid #AD4848;
+    box-shadow: none;
+}
+
+#formulario-login label {
+    font-size: 18px;
+    color: #6C757D;
+}
+
+
+/*Recuperar Contraseña*/
+
+.bg-recover{
+    background: url("../img/telones.jpg");
+    background-position: center center;
+    background-size: cover;
+}
+
+.recover-title{
+    color: #000;
+    font-size: 25px;
+    font-family: 'Abyssinica SIL', serif;
+}
+
+.main-section{
+
+    margin-top: 35vh;
+}
+
+.modal-content{
+    background-color: #fff;
+    opacity: .85//;
+    padding: 0 20px;
+    box-shadow: 0px 0px 3px #848484;
+    border-radius: 5px;
+    border: 1px solid #848484;
+    
+}
+
+.modal-content .btn {
+
+    background: #800A2C;
+    border-color: #800A2C;
+}
+
+.user-img, .userImg3{
+    margin-top: -100px;
+    margin-bottom: 1%;
+}
+
+.user-img img{
+    width: 10rem;
+    height: 10rem;
+/*  box-shadow: 0px 0px 3px #848484;*/
+}
+
+.icono3 {
+
+    padding-right: 1.5%;
+}
+
+.userImg3 img {
+    width: 10rem;
+    height: 10rem;
+}
+
+.form-group input{
+    height: 42px;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+.form-group::before{
+   font-family: 'Abyssinica SIL', serif;
+    position: absolute;
+    left: 28px;
+    font-size: 22px;
+    padding-top:4px;
+}
+
+
+.recoverBoton{
+    width: 60%;
+    margin: 5px 0 25px;
+}
+
+.forgot{
+    padding: 5px 0;
+}
+
+.forgot a{
+    color: white;
+}
+
+#recoverPaso1 input, #recoverPaso2 input, #recoverPaso3 input {
+    border: none;
+    border-bottom: 2px solid lightgray;
+    border-radius: 0;
+    transition: .2s;
+}
+
+#recoverPaso1 label, #recoverPaso2 label, #recoverPaso3 label {
+    font-size: 18px;
+    color: #757575;
+}
+
+#recoverPaso1 input:focus, #recoverPaso2 input:focus, #recoverPaso3 input:focus{
+    border-bottom: 2px solid #AD4848;
+    box-shadow: none;
+}
+

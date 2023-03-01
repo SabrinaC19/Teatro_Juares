@@ -1,0 +1,113 @@
+
+body {
+	background-color: #FFC588;
+}
+
+.cuadro {
+	border: 2.5px solid #710014;
+}
+
+.panel-tabs .nav-link-bl {
+	text-decoration: none;
+	color: #fff;
+	background-color: #AE1B2B;
+}
+
+.panel-tabs .nav-link-bl{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+	transition: all .2s ease;
+}
+
+.panel-tabs .nav-link-bl:hover{
+	color: #fff;
+	background-color: #710014;
+	box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.4);
+	transform: translateY(-5%);
+}
+
+.panel-tabs .active {
+	color: #fff;
+	background-color: #710014;
+	box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.4);
+	transform: translateY(-5%);
+}
+
+.panel-tabs .nav-link-bl:focus {
+	color: #fff;
+}
+
+.nav-butacas {
+	margin: auto;
+	text-align: center;
+	color: #fff;
+}
+
+.info, .seccion {
+	font-size: 18px;
+	background: #710014;
+}
+
+.info-icon {
+	cursor: pointer;
+}
+
+.boleteria {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#seccionEste {
+	display: none;
+	position: relative;
+}
+
+#palcoEste {
+	display: none;
+	position: relative;
+}
+
+#galeriaEste {
+	display: none;
+	position: relative;
+}
+
+.vacio {
+	width: 38.88;
+}
+
+.asiento:hover{
+	cursor: pointer;
+}
+
+.checkAsi:checked~.asiento{
+	color: steelblue;
+}
+
+.checkAsi{
+	display: none;
+}
+
+.btn-infoAsie {
+	border: none;
+}
+
+.btn-infoAsie:hover {
+	border: none;
+}
+
+.disponible {
+	color: #198754;
+}
+
+.noDisponible {
+	color: #dc3545;
+}
+
+.seleccionado {
+	color: #4682B4;
+}
+
